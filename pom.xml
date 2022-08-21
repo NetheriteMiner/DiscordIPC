@@ -2,8 +2,8 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.jagrosh</groupId>
-    <artifactId>DiscordIPC</artifactId>
+    <groupId>ca.tirelesstraveler</groupId>
+    <artifactId>discord-ipc</artifactId>
     <version>0.5</version>
     <packaging>jar</packaging>
 
@@ -55,6 +55,14 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub ILikePlayingGames Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/ILikePlayingGames/DiscordIPC</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
